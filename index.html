@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+    </style>
+
+    <title>Calculadora de Média</title>
+</head>
+<body>
+    <h1>Calculadora de média</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="alura"><br>
+    <div id="container">
+        <form>
+            <h3>Calcule sua média</h3>
+            <input type="number" id="nota1" placeholder="Primeiro Bimestre"><br><br>
+            <input type="number" id="nota2" placeholder="Segundo Bimestre"><br><br>
+            <input type="number" id="nota3" placeholder="Terceiro Bimestre"><br><br>
+            <input type="number" id="nota4" placeholder="Quarto Bimestre"><br><br>
+            <input type="button" value='Enviar'onclick="getMedia()"><br>
+        </form>
+        <span id="span_media"></span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
